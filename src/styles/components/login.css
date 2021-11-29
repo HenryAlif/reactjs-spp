@@ -1,0 +1,40 @@
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.auth {
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    /* padding: 20px; */
+  }
+  
+  .auth-card {
+    margin: 0 auto;
+    width: 450px;
+  }
+  
+  .auth-card form {
+    margin-top: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .form-group label {
+    color: var(--pure-color);
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form-group input {
+    background-color: var(--surface-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--pure-color);
+    outline: none;
+    padding: 12px 20px;
+    width: 100%;
+  }
